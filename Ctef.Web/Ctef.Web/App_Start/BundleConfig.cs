@@ -24,7 +24,9 @@ namespace Ctef.Web
                       "~/Scripts/respond.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",
+                      //"~/Content/bootstrap.min.css",
+                      "~/Content/bootstrap-cerulean.min.css",
+                      "~/Content/bootstrap-custom.css",
                       "~/Content/site.css"));
         }
     }
